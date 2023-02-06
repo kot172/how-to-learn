@@ -7,12 +7,23 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+
+}
+
+content {
+  display: flex;
+  position: relative;
 }
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  position: relative;
+  display: flex;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -28,4 +39,380 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo_place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+
+.header__title {
+  left: 64px;
+  width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 64px;
+}
+
+.header__subtitle {
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  position: absolute;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.main-illustration {
+  position: absolute;
+  width: 765px;
+  height: 608px;
+  bottom: 0;
+  right: 0;
+}
+
+.header__square-pic {
+  position: absolute;
+  width: 568px;
+  height: 568px;
+  background-color: #2f60ed;
+  right: 0;
+  margin-top: 64px;
+}
+
+.description {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px ;
+
+
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  min-width: 784px;
+  width: 80%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  
+}
+
+.two-columns__brief {
+  display: flex;
+  line-height: 12px;
+  font-size: 18px;
+  font-weight: normal;
+  width: 175px;
+  color: #2f60ed;
+  margin-top: 0 ;
+  
+
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 0;
+  width: 80%;
+  min-width: 784px;
+
+}
+
+.vid {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600px;
+}
+
+.digits {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+
+
+}
+
+.section-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 60%; */
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+
+}
+
+.section-subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+.table {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+.cell {
+  display: flex;
+  width: 250px;
+  margin-bottom: 60px;
+  flex-direction: column;
+}
+
+.heading {
+
+  text-align: left;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.cell__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  margin-top: 100px;
+  position: relative;
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feynman__img {
+  width: 867px;
+  height: 637px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+
+}
+
+.feynman__title {
+  margin-top: 100 px; 
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 648px;
+  font-size: 120px;
+  font-weight: 600px;
+  z-index: 1;
+}
+
+.feynman__link {
+  right: 48px;
+  position: absolute;
+  top:50% ;
+
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 1;
+}
+
+.kaufman {
+  background-color:  #1f1f1f;
+  color: #f2f2f2;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.selection-title_theme_dark{
+  
+
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600px;
+  top: 90px;
+   /* width: 60%;  */
+}
+
+.selection-subtitle_theme_dark{
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+
+}
+
+.table_theme_dark {
+  left: auto ;
+  right: auto;
+}
+.cell_theme_dark {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px ;
+  text-align: left;
+}
+.table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600px;
+  z-index: 1;
+
+}
+.table__text_theme_dark{
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  z-index: 1;
+}
+.kaufman_triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  right: -210px;
+  top: 0;
+
+}
+
+
+
+
+
+  
+
+
+footer {
+  display: flex;
+  position: relative;
+  background-color: #1f1f1f;
+  min-height: 350px;
+  justify-content: center;
+  color: #f2f2f2;
+
+  
+} 
+.footer__columns {
+  display: flex; 
+  position: relative;
+  justify-content: space-between;
+  min-width: 784px;
+  width: 80%;
+  padding-top: 100px;
+
+}
+
+
+.footer__column_content_copyright{
+  /* padding-right: 50% ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px
+}
+
+
+
+.footer__author{
+  display: flex;
+  bottom:18px;
+  left:0px ;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  
+}
+
+.footer__column-heading{
+
+  padding-bottom:20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.footer__column-links {
+padding-bottom:16px;
+line-height: 30px;
+font-size: 18px;
+font-weight: normal;
+
+}
+
+.footer__column_content_info{
+display: flex;
+flex-direction: column;
+padding-bottom: 16px ;
+padding-top:20px ;
+
+}
+
+.footer__column_content_social{
+  display: flex;
+flex-direction: column;
+padding-bottom: 16px ;
+padding-top:20px ;
+
+  gap: 20px ;
+}
+.footer__social-icon {
+  display: flex;
+  flex-direction: row;
+  padding-bottom:20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo__place_footer{
+width: 228px;
+height: 32px;
+}
+
+.tik-tok {
+  display: flex;
+}
+.vk {
+  display: flex;
+}
+.youtube {
+  display: flex;
 }
