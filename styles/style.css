@@ -91,20 +91,18 @@ content {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px ;
-
-
+  margin-top: 100px;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
-  align-items:flex-start;
+  align-items: flex-start;
   min-width: 784px;
   width: 80%;
   padding-top: 100px;
   padding-bottom: 100px;
-  
+
 }
 
 .two-columns__brief {
@@ -114,9 +112,7 @@ content {
   font-weight: normal;
   width: 175px;
   color: #2f60ed;
-  margin-top: 0 ;
-  
-
+  margin-top: 0;
 }
 
 .two-columns__paragraph {
@@ -142,7 +138,6 @@ content {
   align-items: center;
   flex-direction: column;
   margin-top: 100px;
-
 
 }
 
@@ -225,7 +220,7 @@ content {
 }
 
 .feynman__title {
-  margin-top: 100 px; 
+  margin-top: 100 px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -238,7 +233,7 @@ content {
 .feynman__link {
   right: 48px;
   position: absolute;
-  top:50% ;
+  top: 50%;
 
 }
 
@@ -250,7 +245,7 @@ content {
 }
 
 .kaufman {
-  background-color:  #1f1f1f;
+  background-color: #1f1f1f;
   color: #f2f2f2;
   text-align: center;
   overflow: hidden;
@@ -261,17 +256,17 @@ content {
   padding-bottom: 100px;
 }
 
-.selection-title_theme_dark{
-  
+.selection-title_theme_dark {
+
 
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600px;
   top: 90px;
-   /* width: 60%;  */
+  /* width: 60%;  */
 }
 
-.selection-subtitle_theme_dark{
+.selection-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -279,16 +274,18 @@ content {
 }
 
 .table_theme_dark {
-  left: auto ;
+  left: auto;
   right: auto;
 }
+
 .cell_theme_dark {
   width: 200px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 80px ;
+  margin-bottom: 80px;
   text-align: left;
 }
+
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
@@ -296,13 +293,15 @@ content {
   z-index: 1;
 
 }
-.table__text_theme_dark{
+
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   text-align: left;
   z-index: 1;
 }
+
 .kaufman_triangle {
   position: absolute;
   width: 877px;
@@ -312,13 +311,6 @@ content {
 
 }
 
-
-
-
-
-  
-
-
 footer {
   display: flex;
   position: relative;
@@ -327,10 +319,11 @@ footer {
   justify-content: center;
   color: #f2f2f2;
 
-  
-} 
+
+}
+
 .footer__columns {
-  display: flex; 
+  display: flex;
   position: relative;
   justify-content: space-between;
   min-width: 784px;
@@ -340,7 +333,7 @@ footer {
 }
 
 
-.footer__column_content_copyright{
+.footer__column_content_copyright {
   /* padding-right: 50% ; */
   display: flex;
   flex-direction: column;
@@ -348,21 +341,19 @@ footer {
   flex-basis: 711px
 }
 
-
-
-.footer__author{
+.footer__author {
   display: flex;
-  bottom:18px;
-  left:0px ;
+  bottom: 18px;
+  left: 0px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  
+
 }
 
-.footer__column-heading{
+.footer__column-heading {
 
-  padding-bottom:20px;
+  padding-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -370,49 +361,52 @@ footer {
 }
 
 .footer__column-links {
-padding-bottom:16px;
-line-height: 30px;
-font-size: 18px;
-font-weight: normal;
+  padding-bottom: 16px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 
 }
 
-.footer__column_content_info{
-display: flex;
-flex-direction: column;
-padding-bottom: 16px ;
-padding-top:20px ;
-
-}
-
-.footer__column_content_social{
+.footer__column_content_info {
   display: flex;
-flex-direction: column;
-padding-bottom: 16px ;
-padding-top:20px ;
+  flex-direction: column;
+  padding-bottom: 16px;
+  padding-top: 20px;
 
-  gap: 20px ;
 }
+
+.footer__column_content_social {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 16px;
+  padding-top: 20px;
+
+  gap: 20px;
+}
+
 .footer__social-icon {
   display: flex;
   flex-direction: row;
-  padding-bottom:20px;
+  padding-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
   font-weight: 600;
 }
 
-.logo__place_footer{
-width: 228px;
-height: 32px;
+.logo__place_footer {
+  width: 228px;
+  height: 32px;
 }
 
 .tik-tok {
   display: flex;
 }
+
 .vk {
   display: flex;
 }
+
 .youtube {
   display: flex;
 }
