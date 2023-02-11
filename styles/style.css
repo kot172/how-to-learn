@@ -122,7 +122,7 @@
   font-size: 24px;
   font-weight: normal;
   margin-top: 0;
-
+  margin-bottom: 0;
 }
 
 .two-columns__span-accent {
@@ -150,6 +150,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  margin-top: 0;
 
 }
 
@@ -160,6 +161,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
 
 }
 
