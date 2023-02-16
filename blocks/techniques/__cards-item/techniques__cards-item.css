@@ -1,0 +1,5 @@
+.cards-item {
+    flex-direction: column;
+    width: 240px; 
+    text-align: center;
+    }
